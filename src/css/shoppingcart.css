@@ -1,0 +1,116 @@
+.checkout {
+  width: 100%;
+  box-sizing: border-box;
+}
+.checkout h2 {
+  background-color: coral;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.checkout-left-product {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.checkout-left img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+.cart-product-name {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.cart-product-price {
+  font-weight: 600;
+}
+.incre__decre {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.incre {
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.decre {
+  width: 25px;
+  height: 25px;
+  background-color: tomato;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.remove-btn {
+  background-color: #fdba31;
+  padding: 3px 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid black;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* ----------------------right content---------------- */
+.checkout-right {
+  height: 200px;
+  padding-top: 15px;
+}
+.checkout-right-content {
+  width: 80%;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subtotal-div {
+  width: 80%;
+  margin: 0 auto;
+}
+.subtotal {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.checkbox input {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.proceed-btn {
+  width: 80%;
+  background-color: #fdba31;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px 0;
+  border: 1px solid black;
+  outline: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
